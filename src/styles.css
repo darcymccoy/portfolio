@@ -97,7 +97,8 @@ section { padding: 40px 0; }
 }
 
 .project {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -128,6 +129,7 @@ section { padding: 40px 0; }
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  margin-top: auto;
 }
 
 .tag {
