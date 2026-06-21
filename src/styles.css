@@ -34,7 +34,7 @@ body {
 
 /* Hero */
 header {
-  padding: 50px 0 64px;
+  padding: 50px 0 32px;
   text-align: center;
 }
 
@@ -56,7 +56,6 @@ header p {
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 0 24px;
 }
 
 .social a {
@@ -86,7 +85,7 @@ section { padding: 40px 0; }
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
-  margin: 0 0 24px;
+  margin: 0 0 12px;
 }
 
 /* Projects */
